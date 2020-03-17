@@ -30,7 +30,7 @@ class App extends React.Component{
         country: data.sys.country,
         weather: data.weather[0].description,
         temperature: data.main.temp,
-        error: ""
+        error: undefined
       });}catch(e){this.setState({error: "Enter a Valid City and Country!"});}
     }else{
       this.setState({
