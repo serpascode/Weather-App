@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Weather App is the most basic of React Apps.
 
-## Available Scripts
+I boostrapped it using 'npm create react-app weather-app'
+Afterwhich I deleted all the extra bits that I wouldn't be making use of for this particular project.
 
-In the project directory, you can run:
+The purpose of this Weather App is to learn how to create React Components and to incorpoate an available API.
+In this case I will be consuming the https://openweathermap.org/ API, and in particular I will be using the following URL
+http://api.openweathermap.org/data/2.5/weather?q={city name},{state}&appid={your api key}
 
-### `npm start`
+I will be making the changes through the Atom IDE and uploading them via a series of commits to this Repository.
+In so doing I hope to achieve a better understanding of Git, React, and the use of API's
+The git commands I will use are the following:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+git commit -m "Message Associated with this particular commit"
+git add -A //This command will include all changes to the repository prior to the commit
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+git status //Is used in order to display the list of changes that have occured in the repository 
 
-### `npm test`
+git remote add origin [URL OF THIS REPOSITORY] // will direct the final destination of the commited files
+git push -u origin master //Will push all changes directly into the master branch.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+For now these are some of basic Git commands that I will be using while working with Git
+I am formally documenting them here so as to maintain a record of my progress
