@@ -22,7 +22,7 @@ class App extends React.Component{
 
     const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${CITY},${COUNTRY}&appid=${API_KEY}&units=imperial`);
     const data = await api_call.json();
-
+    
     if(CITY && COUNTRY){
       try{
       this.setState({
@@ -41,15 +41,27 @@ class App extends React.Component{
   render(){
     return(
       <div>
-        <Titles />
-        <Form getWeather={this.getWeather}/>
-        <Weather
-          city={this.state.city}
-          country={this.state.country}
-          weather={this.state.weather}
-          temperature={this.state.temperature}
-          error={this.state.error}
-        />
+        <div className="wrapper">
+          <div className="main">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-5 title-container">
+                  <Titles />
+                </div>
+                <div className="col-sm-7 form-container">
+                  <Form getWeather={this.getWeather}/>
+                  <Weather
+                    city={this.state.city}
+                    country={this.state.country}
+                    weather={this.state.weather}
+                    temperature={this.state.temperature}
+                    error={this.state.error}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
