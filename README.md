@@ -5,7 +5,7 @@ Afterwhich I deleted all the extra bits that I wouldn't be making use of for thi
 
 The purpose of this Weather App is to learn how to create React Components and to incorpoate an available API.
 In this case I will be consuming the https://openweathermap.org/ API, and in particular I will be using the following URL
-http://api.openweathermap.org/data/2.5/weather?q={city name},{state}&appid={your api key}
+http://api.openweathermap.org/data/2.5/weather?q={city name},{country}&appid={your api key}
 
 I will be making the changes through the Atom IDE and uploading them via a series of commits to this Repository.
 In so doing I hope to achieve a better understanding of Git, React, and the use of API's
