@@ -21,3 +21,6 @@ git push -u origin master //Will push all changes directly into the master branc
 
 For now these are some of basic Git commands that I will be using while working with Git
 I am formally documenting them here so as to maintain a record of my progress
+
+Below is a demo of the weather app
+![The Weather App Demo](weatherapp_demo.gif)
